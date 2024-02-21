@@ -89,7 +89,7 @@ foreach(var path in paths)
     if(File.Exists(png)) continue;
 
     var num = fName[..2];
-    var url = $"http://ikt.im/sk111_{num}";
+    var url = $"http://ikt.im/sk111p{num}";
     Console.WriteLine(url);
     
     var api = $"http://api.qrserver.com/v1/create-qr-code/?data={url}&size=500x500&ecc=H";

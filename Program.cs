@@ -1,5 +1,5 @@
 ﻿var source = "./locaties";
-var target = "./html";
+var target = "./docs";
 var qrs = "./qrs";
 var tempaltePath = "./template.html";
 var wd = "./";

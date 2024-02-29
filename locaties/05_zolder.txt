@@ -1,14 +1,34 @@
 Zolder Martin Gasman Groep
 52.56130210000002%2C5.912965899999985
 
-Omschrijving tekst
+<p>
+Het huis dat vastzit aan de Buitenkerk hoort bij de Katholieke parochie van de Buitenkerk. Hier vinden lange tijd de opkomsten plaats van de “Zolderspeltakken” van de Martin Gasman Groep. Met name de jongste kinderen zoals de welpen doen hun activiteiten hier, totdat ze oud genoeg zijn om te kunnen gaan zeilen vanaf het Ganzendiep.
+</p>
+
+<p>
+De Martin Gasman Groep kwam voort uit de Katholieke Jeugdbeweging. Eind jaren ‘40 was de samenstelling als volgt:<br/>
+Katholieke Jeugdbeweging voor de mannelijke jeugd:
+</p>
+<ul class="dashed">
+<li>Verkennerij met speltakken St. Franciscus I en St. Franciscus II;</li>
+<li>Welpen met speltakken St. Franciscus I, St. Franciscus II en St. Franciscus III</li>
+<li>Kajotters (Katholieke Arbeidersjeugdbeweging)</li>
+</ul>
+
+<p>
+Katholieke Actie Vrouwelijke Jeugd:
+</p>
+<ul class="dashed">
+<li>Trekvogels</li>
+<li>Gidsen, met de speltakken Marietje Philipetto I en Marietje Philipetto II</li>
+<li>Jongerengemeenschap</li>
+</ul>
+
+<p>
+Volgens de archivaris van de RK Kerk in Kampen werd in 1960 de Stichting Parochiële Jeugdbelangen opgericht, waar op dat moment de Sint Tarcisiusgroep en de Marietje Philipettogroep in werden opgenomen. In 1979 fuseerden zij tot de Martin Gasman Groep.
+</p>
 
 <div>
-  <img src="img/img05.jpg" />
-  <span>Omschrijving foto</span>
-</div>
-
-<div>
-  <img src="img/img05b.png" />
-  <span>Omschrijving foto</span>
+  <img src="img/img05.png" alt="Groepsvlag van de Martin Gasman Groep" />
+  <span>Groepsvlag van de Martin Gasman Groep</span>
 </div>

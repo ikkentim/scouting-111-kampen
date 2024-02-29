@@ -67,7 +67,9 @@ for(var i=0;i<dat.Count;i++)
     var d = dat[i];
     string txt;
     if(last){
-        txt = templateLast.Replace("{{title}}", d.Title).Replace("{{info}}", d.Body);
+        //txt = templateLast.Replace("{{title}}", d.Title).Replace("{{info}}", d.Body);
+        var n = dat[0];
+        txt = template.Replace("{{title}}", d.Title).Replace("{{info}}", d.Body).Replace("{{next}}", n.Location);
     }
     else{
         var n = dat[i+1];

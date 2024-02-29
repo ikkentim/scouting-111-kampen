@@ -129,3 +129,29 @@ p.article {
     padding-left: 5px;
     border-left: 2px solid #666;
 }
+
+.credits {
+    font-style: italic;
+    margin: 0;
+}
+
+ul.credits {
+    margin-bottom: 10px;
+}
+
+ul.dashed {
+  list-style-type: none;
+  margin-top: 0;
+  padding-left: 30px;
+}
+ul.dashed > li {
+  text-indent: -5px;
+}
+ul.dashed > li:before {
+  content: "- ";
+  text-indent: -5px;
+}
+
+h1 {
+    margin: 0;
+}

@@ -9,3 +9,8 @@ Omschrijving tekst
   <img src="img/img04.jpg" />
   <span>Omschrijving foto</span>
 </div>
+
+<div>
+  <img src="img/img04b.png" />
+  <span>Omschrijving foto</span>
+</div>

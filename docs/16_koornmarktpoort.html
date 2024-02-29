@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>{{title}} - Route Scouting in Kampen</title>
+        <title>Koornmarktpoort - Route Scouting in Kampen</title>
     
         <!-- Linking to a CSS stylesheet -->
         <link rel="stylesheet" href="style.css">
@@ -11,18 +11,27 @@
     <body>
         <div class="container">
             <div class="content">
-                <h1 class="title">{{title}}</h1>
+                <h1 class="title">Koornmarktpoort</h1>
 
                 <div class="details">
-                    {{info}}
+                    <p>
+Uit de Kamper Almanak 1937/1938: 
+</p>
+
+<p class="article">
+NIEUW CLUBHUIS PADVINDSTERS. Voorafgegaan door 3 padvindsters-trommelslaagsters, marcheerden op Zaterdag 28 Juni de afdeelingen kabouters en padvindsters naar hun nieuwe clubhuis buiten de Veenepoort, dat officieel werd geopend. Nadat de vlag geheschen was, hield de voorzitster van het Nederl. Meisjesgilde, afd. Kampen, mevr. Van Boecop-Smeets haar openingsrede. Daarop werd het clubhuis geopend onder de toepasselijke yell van de meisjes: De deur gaat open, bons! Dit huis is nu van ons!
+</p>
+
+<p>
+Tijdens een jubileumwandeling ter gelegenheid van het 85 jarig bestaan is deze kreet als Latijnse spreuk door de Hanzeluiden overgenomen: Et aperuerit mihi ianuam, bang! Hoc nostrum est domum nunc!
+</p>
                 </div>            
             </div>
 
-            @@BEGIN_NEXT
             <div class="map">
                 Het volgende punt van de route bevindt zich op deze locatie:
-                <a href="https://www.google.com/maps/dir/?api=1&destination={{next}}">
-                    <img class="map-image" src="https://maps.googleapis.com/maps/api/staticmap?zoom=18&size=450x250&markers={{next}}&key=AIzaSyBDz5LH8gGgmDr7uCa7HQhroqLx3p-zSg8" />
+                <a href="https://www.google.com/maps/dir/?api=1&destination=52.55782119999999%2C5.9157679000000085">
+                    <img class="map-image" src="https://maps.googleapis.com/maps/api/staticmap?zoom=18&size=450x250&markers=52.55782119999999%2C5.9157679000000085&key=AIzaSyBDz5LH8gGgmDr7uCa7HQhroqLx3p-zSg8" />
                
 
                     <span class="map-info">
@@ -33,7 +42,6 @@
                     </span>
                 </a>
             </div>
-            @@END_NEXT
         </div>
 
         <footer>

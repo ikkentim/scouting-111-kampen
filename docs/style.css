@@ -98,3 +98,33 @@ footer {
 .hzl, .rsm, .mgg, .hbg, .sak {
     max-height: 50px;
 }
+
+.details {
+    display: flex;
+    flex-direction: column;
+}
+
+.details > div { /*imgbox*/
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #aaa;
+}
+
+.details > div > img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.details > div > span {
+    font-weight: bold;
+    color: #555;
+}
+
+p.article {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left: 5px;
+    border-left: 2px solid #666;
+}

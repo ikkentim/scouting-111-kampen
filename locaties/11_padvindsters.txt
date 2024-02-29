@@ -1,0 +1,12 @@
+Clubhuis Padvindsters
+
+52.556943200000006%2C5.91240260000002
+
+<p>
+   Omschrijving tekst
+</p>
+
+<div>
+  <img src="img/img11.png" />
+  <span>Omschrijving foto</span>
+</div>

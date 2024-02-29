@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>{{title}} - Route Scouting in Kampen</title>
+        <title>Botermarkt - Route Scouting in Kampen</title>
     
         <!-- Linking to a CSS stylesheet -->
         <link rel="stylesheet" href="style.css">
@@ -11,18 +11,27 @@
     <body>
         <div class="container">
             <div class="content">
-                <h1 class="title">{{title}}</h1>
+                <h1 class="title">Botermarkt</h1>
 
                 <div class="details">
-                    {{info}}
+                    <p>
+In 1939 startte hier een actie van Padvindsters en Verkenners om voedsel en kleding in te zamelen voor Finland, vanwege de Winteroorlog door de Russische inval daar. Rusland won de oorlog, Finland verloor het gebied Karelië.
+</p>
+
+<p>
+Andere activiteiten voor goede doelen waren onder meer activiteiten voor kinderen in het Stadsziekenhuis, de organisatie van een poppenkastmiddag voor jonge kinderen en collecte lopen tegen polio (een verlammingsziekte die nog veel voorkwam).
+</p>
+
+<p>
+In 1953 helpt Scouting massaal de slachtoffers van de Watersnoodramp in Zeeland door inzamelacties en de organisatie van de postverbindingen.
+</p>
                 </div>            
             </div>
 
-            @@BEGIN_NEXT
             <div class="map">
                 Het volgende punt van de route bevindt zich op deze locatie:
-                <a href="https://www.google.com/maps/dir/?api=1&destination={{next}}">
-                    <img class="map-image" src="https://maps.googleapis.com/maps/api/staticmap?zoom=18&size=450x250&markers={{next}}&key=AIzaSyBDz5LH8gGgmDr7uCa7HQhroqLx3p-zSg8" />
+                <a href="https://www.google.com/maps/dir/?api=1&destination=52.55488860000002%2C5.9187552000000165">
+                    <img class="map-image" src="https://maps.googleapis.com/maps/api/staticmap?zoom=18&size=450x250&markers=52.55488860000002%2C5.9187552000000165&key=AIzaSyBDz5LH8gGgmDr7uCa7HQhroqLx3p-zSg8" />
                
 
                     <span class="map-info">
@@ -33,7 +42,6 @@
                     </span>
                 </a>
             </div>
-            @@END_NEXT
         </div>
 
         <footer>

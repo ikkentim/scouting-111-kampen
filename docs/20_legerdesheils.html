@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>{{title}} - Route Scouting in Kampen</title>
+        <title>Leger des Heils - Route Scouting in Kampen</title>
     
         <!-- Linking to a CSS stylesheet -->
         <link rel="stylesheet" href="style.css">
@@ -11,18 +11,19 @@
     <body>
         <div class="container">
             <div class="content">
-                <h1 class="title">{{title}}</h1>
+                <h1 class="title">Leger des Heils</h1>
 
                 <div class="details">
-                    {{info}}
+                    <p>
+In 1936 vindt de oprichting van de Kamper Padvinders en Padvindsters van het Leger des Heils plaats. Zij zijn kort actief vanuit de Boven Nieuwstraat 33 maar duikt daarna nooit meer opnieuw in de archieven op. Er zijn momenteel vijf Scoutinggroepen van het Leger des Heils in Nederland, waarvan twee vlakbij: Renatum 57 in Zwolle en Scoutinggroep Jampeldekamp op Urk. 
+</p>
                 </div>            
             </div>
 
-            @@BEGIN_NEXT
             <div class="map">
                 Het volgende punt van de route bevindt zich op deze locatie:
-                <a href="https://www.google.com/maps/dir/?api=1&destination={{next}}">
-                    <img class="map-image" src="https://maps.googleapis.com/maps/api/staticmap?zoom=18&size=450x250&markers={{next}}&key=AIzaSyBDz5LH8gGgmDr7uCa7HQhroqLx3p-zSg8" />
+                <a href="https://www.google.com/maps/dir/?api=1&destination=52.56293750000001%2C5.912968299999983">
+                    <img class="map-image" src="https://maps.googleapis.com/maps/api/staticmap?zoom=18&size=450x250&markers=52.56293750000001%2C5.912968299999983&key=AIzaSyBDz5LH8gGgmDr7uCa7HQhroqLx3p-zSg8" />
                
 
                     <span class="map-info">
@@ -33,7 +34,6 @@
                     </span>
                 </a>
             </div>
-            @@END_NEXT
         </div>
 
         <footer>

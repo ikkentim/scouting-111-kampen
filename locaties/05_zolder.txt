@@ -2,3 +2,13 @@ Zolder Martin Gasman Groep
 52.56130210000002%2C5.912965899999985
 
 Omschrijving tekst
+
+<div>
+  <img src="img/img05.jpg" />
+  <span>Omschrijving foto</span>
+</div>
+
+<div>
+  <img src="img/img05b.png" />
+  <span>Omschrijving foto</span>
+</div>

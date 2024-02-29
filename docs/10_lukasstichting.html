@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>{{title}} - Route Scouting in Kampen</title>
+        <title>Lukasstichting - Route Scouting in Kampen</title>
     
         <!-- Linking to a CSS stylesheet -->
         <link rel="stylesheet" href="style.css">
@@ -11,18 +11,23 @@
     <body>
         <div class="container">
             <div class="content">
-                <h1 class="title">{{title}}</h1>
+                <h1 class="title">Lukasstichting</h1>
 
                 <div class="details">
-                    {{info}}
+                    <p>
+De Lukasstichting was een dochterorganisatie van het Stadsburgerweeshuis voor gehandicapte kinderen. Jongens van de Lukasstichting helpen mee met de bouw van het eerste Kapadka (clubhuis Hanzeluiden) in 1958. In deze tijd was de Hanzeluiden alleen nog voor meisjes. Omdat er ook een paar gehandicapte meisjes lid waren, kregen zij minder geld van het Hoofdkwartier voor de bouw van een clubhuis. Na luid protest van de Hanzeluiden bij het Hoofdbestuur en veel eigen fondsenwerving is een clubhuis voor alle meiden uiteindelijk toch gelukt.
+</p>
+
+<p>
+De Lukasstichting was onder meer gevestigd in de (voorloper van) het clubhuis van de postduivenvereniging van 1946 tot 1954. Er stonden hier toen barakken van de Imbecielenafdeling Internaat voor Debielen -dat zeg je nu gelukkig niet meer. Hier waren verder voetbalvelden en een ijsbaan in plaats van een park.
+</p>
                 </div>            
             </div>
 
-            @@BEGIN_NEXT
             <div class="map">
                 Het volgende punt van de route bevindt zich op deze locatie:
-                <a href="https://www.google.com/maps/dir/?api=1&destination={{next}}">
-                    <img class="map-image" src="https://maps.googleapis.com/maps/api/staticmap?zoom=18&size=450x250&markers={{next}}&key=AIzaSyBDz5LH8gGgmDr7uCa7HQhroqLx3p-zSg8" />
+                <a href="https://www.google.com/maps/dir/?api=1&destination=52.55929540000002%2C5.917066900000014">
+                    <img class="map-image" src="https://maps.googleapis.com/maps/api/staticmap?zoom=18&size=450x250&markers=52.55929540000002%2C5.917066900000014&key=AIzaSyBDz5LH8gGgmDr7uCa7HQhroqLx3p-zSg8" />
                
 
                     <span class="map-info">
@@ -33,7 +38,6 @@
                     </span>
                 </a>
             </div>
-            @@END_NEXT
         </div>
 
         <footer>

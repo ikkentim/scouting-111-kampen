@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>{{title}} - Route Scouting in Kampen</title>
+        <title>Burgwalstraat - Route Scouting in Kampen</title>
     
         <!-- Linking to a CSS stylesheet -->
         <link rel="stylesheet" href="style.css">
@@ -11,18 +11,24 @@
     <body>
         <div class="container">
             <div class="content">
-                <h1 class="title">{{title}}</h1>
+                <h1 class="title">Burgwalstraat</h1>
 
                 <div class="details">
-                    {{info}}
+                    <p>
+De eerste oproep voor een padvindersgroep in Kampen verschijnt in de Kamper Courant op 3 november 1912. Een jaar later wordt Padvinders Groep 1 Kampen opgericht. In 1931 openen zij een “troepenhuis”, in 1938 een nieuwe hier in de Burgwalstraat. Er zijn dan twee locaties voor de padvinders: hier in de binnenstad maar ook aan de kolk bij Seveningen. 
+</p>
+
+<div>
+  <img src="img/img21.jpg" />
+  <span>Krantknipsel met nieuwsbericht over aankoop van het pand</span>
+</div>
                 </div>            
             </div>
 
-            @@BEGIN_NEXT
             <div class="map">
                 Het volgende punt van de route bevindt zich op deze locatie:
-                <a href="https://www.google.com/maps/dir/?api=1&destination={{next}}">
-                    <img class="map-image" src="https://maps.googleapis.com/maps/api/staticmap?zoom=18&size=450x250&markers={{next}}&key=AIzaSyBDz5LH8gGgmDr7uCa7HQhroqLx3p-zSg8" />
+                <a href="https://www.google.com/maps/dir/?api=1&destination=52.559735900000035%2C5.9168264999999876">
+                    <img class="map-image" src="https://maps.googleapis.com/maps/api/staticmap?zoom=18&size=450x250&markers=52.559735900000035%2C5.9168264999999876&key=AIzaSyBDz5LH8gGgmDr7uCa7HQhroqLx3p-zSg8" />
                
 
                     <span class="map-info">
@@ -33,7 +39,6 @@
                     </span>
                 </a>
             </div>
-            @@END_NEXT
         </div>
 
         <footer>

@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>{{title}} - Route Scouting in Kampen</title>
+        <title>Mgr. Zwijsen school - Route Scouting in Kampen</title>
     
         <!-- Linking to a CSS stylesheet -->
         <link rel="stylesheet" href="style.css">
@@ -11,18 +11,27 @@
     <body>
         <div class="container">
             <div class="content">
-                <h1 class="title">{{title}}</h1>
+                <h1 class="title">Mgr. Zwijsen school</h1>
 
                 <div class="details">
-                    {{info}}
+                    <p>
+In 1946 wordt de Sint Tarcisiusgroep in Kampen opgericht in de school bij de Buitenkerk (Mgr. Zwijsen school) als Kamper afdeling van de (landelijke) Rooms Katholieke Verkenners. In 1948 wordt pastoor Gasman groepsleider en worden vijf verkenners geïnstalleerd. 
+</p>
+
+<p>
+Pas later wordt de groep waterscouting. In 1950 wordt de Marietje Filipettogroep opgericht. De Martin Gasman Groep ontstaat uit een fusie van de Sint Tarcisiusgroep (jongens) en de Marietje Filipettogroep (meisjes) in 1979. 
+</p>
+
+<p>
+Marietje was een Italiaans meisje, dat leefde van 1912 tot 1927. Ze was ernstig ziek door tubercolose en leed zo veel pijn dat ze op bidprentjes belandde als vroom Katholiek voorbeeld van de lijdensweg van Jezus. Tarcisius (Rome, 263 – 275) was een Romeinse jongeling die stierf voor het christelijk geloof. In de Katholieke Kerk worden beiden vereerd als martelaar.
+</p>
                 </div>            
             </div>
 
-            @@BEGIN_NEXT
             <div class="map">
                 Het volgende punt van de route bevindt zich op deze locatie:
-                <a href="https://www.google.com/maps/dir/?api=1&destination={{next}}">
-                    <img class="map-image" src="https://maps.googleapis.com/maps/api/staticmap?zoom=18&size=450x250&markers={{next}}&key=AIzaSyBDz5LH8gGgmDr7uCa7HQhroqLx3p-zSg8" />
+                <a href="https://www.google.com/maps/dir/?api=1&destination=">
+                    <img class="map-image" src="https://maps.googleapis.com/maps/api/staticmap?zoom=18&size=450x250&markers=&key=AIzaSyBDz5LH8gGgmDr7uCa7HQhroqLx3p-zSg8" />
                
 
                     <span class="map-info">
@@ -33,7 +42,6 @@
                     </span>
                 </a>
             </div>
-            @@END_NEXT
         </div>
 
         <footer>

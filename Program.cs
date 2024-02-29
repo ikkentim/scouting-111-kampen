@@ -11,7 +11,7 @@ if(!Directory.Exists(source))
 }
 
 // read root
-var paths = Directory.GetFiles(source);
+var paths = Directory.GetFiles(source).OrderBy(x => x).ToArray();
 
 var templateLines = File.ReadAllLines(tempaltePath)!;
 

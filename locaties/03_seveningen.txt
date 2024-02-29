@@ -15,6 +15,6 @@ Pas in 1955 ontstaat de Lelievlet, de zeilboot die speciaal voor Scouting wordt 
 </div>
 
 <div>
-  <img src="img/img03b.ppg" alt="Ter viering van het 100-jarig bestaan van Scouting Nederland werd de bunker in 2010 beschilderd" />
+  <img src="img/img03b.png" alt="Ter viering van het 100-jarig bestaan van Scouting Nederland werd de bunker in 2010 beschilderd" />
   <span>Ter viering van het 100-jarig bestaan van Scouting Nederland werd de bunker in 2010 beschilderd</span>
 </div>

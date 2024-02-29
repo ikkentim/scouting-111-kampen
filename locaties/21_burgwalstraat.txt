@@ -6,6 +6,6 @@ De eerste oproep voor een padvindersgroep in Kampen verschijnt in de Kamper Cour
 </p>
 
 <div>
-  <img src="img/img21.jpg" />
+  <img src="img/img21.jpg" alt="Krantknipsel met nieuwsbericht over aankoop van het pand" />
   <span>Krantknipsel met nieuwsbericht over aankoop van het pand</span>
 </div>

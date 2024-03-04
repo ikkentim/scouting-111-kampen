@@ -2,15 +2,18 @@ Ganzediep
 52.562031000000005%2C5.913976800000014
 
 <p>
-Omschrijving tekst
+T/m de jaren ‘80 kreeg de Martin Gasman Groep nog steeds een financiële bijdrage vanuit de Roomskatholieke kerk. Deze bijdrage was gebaseerd op de rente van het geld dat over was na de verkoop van “’t Gouden Hart”. Hier ga je nog naar toe. Medio 1995 werd besloten om een nieuw gebouw aan het Ganzendiep te gaan bouwen, waar alle leeftijdsgroepen hun bijeenkomsten zouden gaan houden. In 1996 werd dit gebouw “de Ducdalf” geopend door de toenmalige Staatssecretaris Erica Terpstra.
+</p>
+
+<p>
+De Henk Brunt Groep zit zeker als sinds 1937 aan de kolk bij Seveningen en sinds 1950 aan het Ganzendiep. Na de oorlog werd een ambitieus plan opgezet voor een groot padvinderclubhuis aan het Ganzendiep met kampeervelden om zo een internationaal padvinderscentrum te worden. In 1953 werd de bouw stilgelegd na schade door de storm van de Watersnoodramp. Verschillende leden van de groep reisden af naar Zeeland om te helpen. In 1954 werd het gebouw geopend, maar helaas brandde het in 1977 af. Daarna kwam er een nieuw clubgebouw, dat er nog steeds staat.
 </p>
 
 <div>
-  <img src="img/img04.jpg" />
-  <span>Omschrijving foto</span>
+  <img src="img/img04.jpg" alt="Krantknipsel met foto van troephuis" />
+  <span>Krantknipsel met foto van troephuis</span>
 </div>
 
 <div>
   <img src="img/img04b.png" />
-  <span>Omschrijving foto</span>
 </div>

@@ -1,4 +1,6 @@
 Groenestraat
 52.55462260000004%2C5.91635699999999
 
-Omschrijving tekst
+<p>
+Het eerst vermelde clubgebouw van Scouting ooit in Kampen stond voor 1920 in de Groenestraat. Waar precies is niet bekend. In datzelfde jaar werden de Kamper padvinders “koninklijk erkend”.
+</p>
